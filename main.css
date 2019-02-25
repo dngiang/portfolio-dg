@@ -1,7 +1,8 @@
 * {
     box-sizing: border-box;
   }
-  
+
+/* font family   */
 body {
   font-family: 'Nanum Gothic', sans-serif; 
   font-size: 20px;
@@ -10,23 +11,16 @@ body {
   line-height: 1.5;
   }
 
+
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
 .bg-head {
   max-height: 400px;
-  margin-top: -200px;
-}
-
-nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 10;
-  padding: 1% 0;
-  background-color: #ffd735fa;
-}
-
-ul {
-  text-align: left;
+  margin-top: -80px;
 }
 
 header {
@@ -34,22 +28,25 @@ header {
 }
 
 section {
+  /* margin-top: -200px; */
   min-height: 200px;
-  padding: 6% 0;
+  padding: 3%;
   background-color: white;
   text-align:center;
 }
 
-.project-1,.project-2, .project-3 {
-  display: block;
-  float: left;
-  border: .5px solid black;
-  border-radius: 5px;
-  border-spacing: 5px 10px;
-  width: 415px;
-  height: 120px;
+#projects{
+  margin-top: 0px;
+  padding: inherit;
 }
 
+#projects .project{
+  float:left;
+  text-align: center;
+  width:33.33%;
+  padding: 10px;
+  border: .1px black solid;
+}
 
 .icons{
   max-width: 1000px;
@@ -64,12 +61,34 @@ section {
   display: inline-block;
 }
 
+em{
+  text-decoration: underline;
+  font-style: normal;
+  font-size: 2rem;
+  text-align: left;
+}
+
 button {
   border-radius: 5px;
   text-shadow: none;
   font-size: 10px;
 }
 
+
+#about-contact{
+  background-color: rgb(149, 177, 170);
+  color: white;
+  text-align: left;
+}
+
 h1, p , li {
   font-size: 15px;
+}
+
+@media(max-width: 768px){
+#projects .project{
+    float:none;
+    text-align:center;
+    width:100%;
+  } 
 }
