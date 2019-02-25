@@ -71,9 +71,12 @@ em{
 button {
   border-radius: 5px;
   text-shadow: none;
+  outline: none;
   font-size: 10px;
+  color:  white;
+  background-color:  rgb(88, 131, 120);
+  border:none;
 }
-
 
 #about-contact{
   background-color: rgb(149, 177, 170);
