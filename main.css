@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+  }
+  
+body {
+  font-family: 'Nanum Gothic', sans-serif; 
+  font-size: 20px;
+  color: #444;
+  text-align: center;
+  line-height: 1.5;
+  }
+
+.bg-head {
+  max-height: 400px;
+  margin-top: -200px;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  padding: 1% 0;
+  background-color: #ffd735fa;
+}
+
+ul {
+  text-align: left;
+}
+
+header {
+  padding: 12% 0;
+}
+
+section {
+  min-height: 200px;
+  padding: 6% 0;
+  background-color: white;
+  text-align:center;
+}
+
+.project-1,.project-2, .project-3 {
+  display: block;
+  float: left;
+  border: .5px solid black;
+  border-radius: 5px;
+  border-spacing: 5px 10px;
+  width: 415px;
+  height: 120px;
+}
+
+
+.icons{
+  max-width: 1000px;
+  max-height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.icon{
+  max-width: 33px;
+  max-height: 33px;
+  display: inline-block;
+}
+
+button {
+  border-radius: 5px;
+  text-shadow: none;
+  font-size: 10px;
+}
+
+h1, p , li {
+  font-size: 15px;
+}
